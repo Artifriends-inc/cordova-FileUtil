@@ -1,7 +1,7 @@
 {
   "name": "cordova-fileutil",
-  "version": "1.0.0",
-  "description": "Cordova File Util",
+  "version": "1.0.1",
+  "description": "The 'cordova-plugin-file' plug-in is easy to use",
   "keywords": [
     "file util",
     "file",

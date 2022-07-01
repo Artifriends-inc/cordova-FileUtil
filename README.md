@@ -1,6 +1,6 @@
 # cordova-FileUtil
 
-Cordova File Util
+The "cordova-plugin-file" plug-in is easy to use
 
 
 

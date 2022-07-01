@@ -1,0 +1,34 @@
+{
+  "name": "cordova-fileutil",
+  "version": "1.0.0",
+  "description": "Cordova File Util",
+  "keywords": [
+    "file util",
+    "file",
+    "web",
+    "app",
+    "android",
+    "ios",
+    "desktop",
+    "frontle",
+    "cordova",
+    "electron",
+    "chrome extension"
+  ],
+  "author": "Yoon HyungJun <y37653@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artifriends-inc/cordova-FileUtil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Artifriends-inc/cordova-FileUtil/issues"
+  },
+  "homepage": "https://github.com/Artifriends-inc/cordova-FileUtil#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "cordovaFileUtil.js"
+  ],
+  "dependencies": {}
+}

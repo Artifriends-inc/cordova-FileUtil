@@ -16,7 +16,7 @@ import {CordovaFileUtil} from "../../frontle/browser_modules/cordova-fileutil/co
 const cordovaFileUtil = CordovaFileUtil.getInstance();
 
 // get directory entry
-const dirEntry = cordovaFileUtil.getDirEntry(cordova.file.dataDirectory + 'testFolder');
+const dirEntry = cordovaFileUtil.getDirEntry(cordova.file.dataDirectory, 'testFolder');
 
 // get file entry
 const fileEntry = cordovaFileUtil.getFileEntry('test.text', dirEntry);
@@ -41,7 +41,7 @@ cordovaFileUtil.removeDir(dirEntry);
 **How to install from Frontle**
 
 ```shell
-$ frontle install-original cordova-fileutil
+$ frontle install cordova-fileutil
 ```
 
 
@@ -73,7 +73,7 @@ Get folder entry, If the "create" option is true, a folder is created
 
 ```javascript
 // get directory entry
-const dirEntry = cordovaFileUtil.getDirEntry(cordova.file.dataDirectory + 'testFolder');
+const dirEntry = cordovaFileUtil.getDirEntry(cordova.file.dataDirectory, 'testFolder');
 ```
 
 

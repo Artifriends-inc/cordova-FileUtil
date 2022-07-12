@@ -2,8 +2,6 @@
 
 This package makes it easy to use the "cordova-plugin-file" plug-in
 
-
-
 [![NPM Version][npm-version-image]][npm-url]
 
 [![NPM Install Size][npm-install-size-image]][npm-install-size-url]
@@ -11,6 +9,10 @@ This package makes it easy to use the "cordova-plugin-file" plug-in
 [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```javascript
+import {CordovaFileUtil} from "../../frontle/browser_modules/cordova-fileutil/cordovaFileUtil.js";
+
+
+// get instance
 const cordovaFileUtil = CordovaFileUtil.getInstance();
 
 // get directory entry
@@ -36,13 +38,7 @@ cordovaFileUtil.removeDir(dirEntry);
 
 ## Installation
 
-For typical cordova projects, copy and use the code at cordovaFileUtil.js in this repository
-
-https://github.com/Artifriends-inc/cordova-FileUtil
-
-
-
-How to install with Frontle
+**How to install from Frontle**
 
 ```shell
 $ frontle install-original cordova-fileutil
@@ -50,21 +46,28 @@ $ frontle install-original cordova-fileutil
 
 
 
+**How to install from Web**
+
+For typical web projects, copy and use the code at cordovaFileUtil.js in below repositorys
+
+https://github.com/Artifriends-inc/cordova-FileUtil (cordovaFileUtil.js)
+
+
+
 ## Function
 
 #### getInstance()
 
-Get "CordovaFileUtil" object
-
-Only one object is created using a single-tone pattern
+Get "CordovaFileUtil" object. only one object is created using a single-tone pattern
 
 ```javascript
+// get instance
 const cordovaFileUtil = CordovaFileUtil.getInstance();
 ```
 
 
 
-#### getDirEntry(path, folderName, create = true)
+#### cordovaFileUtil.getDirEntry(path, folderName, create = true)
 
 Get folder entry, If the "create" option is true, a folder is created
 
@@ -75,7 +78,7 @@ const dirEntry = cordovaFileUtil.getDirEntry(cordova.file.dataDirectory + 'testF
 
 
 
-#### getFileEntry(fileName, dirEntry, create = true)
+#### cordovaFileUtil.getFileEntry(fileName, dirEntry, create = true)
 
 Get file entry, If the "create" option is true, a file is created
 
@@ -97,7 +100,7 @@ const readData = cordovaFileUtil.read(fileEntry);
 
 
 
-#### write(fileName, writeData)
+#### write(fileEntry, writeData)
 
 Write file data
 

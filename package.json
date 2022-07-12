@@ -1,6 +1,6 @@
 {
   "name": "cordova-fileutil",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package makes it easy to use the 'cordova-plugin-file' plug-in",
   "keywords": [
     "file util",
@@ -15,7 +15,7 @@
     "electron",
     "chrome extension"
   ],
-  "author": "Yoon HyungJun <y37653@gmail.com>",
+  "author": "Yun HyeongJun <y37653@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",

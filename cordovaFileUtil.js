@@ -71,7 +71,7 @@ export class CordovaFileUtil {
     }
 
     async remove(fileName, dirEntry) {
-        return new Promise(async (resolve, reject) => {
+        return new Promise((resolve, reject) => {
             try{
                 dirEntry.getFile(fileName, { create: false }, (fileEntry) => {
                     fileEntry.remove(() => {

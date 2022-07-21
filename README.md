@@ -9,7 +9,7 @@ This package makes it easy to use the "cordova-plugin-file" plug-in
 [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```javascript
-import {CordovaFileUtil} from "../../frontle/browser_modules/cordova-fileutil/cordovaFileUtil.js";
+import {CordovaFileUtil} from "../../browser_modules/cordova-fileutil/cordovaFileUtil.js";
 
 
 // get instance

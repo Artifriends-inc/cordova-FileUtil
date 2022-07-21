@@ -1,6 +1,6 @@
 {
   "name": "cordova-fileutil",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "This package makes it easy to use the 'cordova-plugin-file' plug-in",
   "keywords": [
     "file util",

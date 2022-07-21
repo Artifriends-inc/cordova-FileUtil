@@ -13,7 +13,7 @@ import {CordovaFileUtil} from "../../frontle/browser_modules/cordova-fileutil/co
 
 
 // get instance
-const cordovaFileUtil = CordovaFileUtil.getInstance();
+const cordovaFileUtil = new CordovaFileUtil();
 
 // get directory entry
 const dirEntry = cordovaFileUtil.getDirEntry(cordova.file.dataDirectory, 'testFolder');
@@ -56,13 +56,13 @@ https://github.com/Artifriends-inc/cordova-FileUtil (cordovaFileUtil.js)
 
 ## Function
 
-#### getInstance()
+#### new CordovaFileUtil()
 
 Get "CordovaFileUtil" object. only one object is created using a single-tone pattern
 
 ```javascript
 // get instance
-const cordovaFileUtil = CordovaFileUtil.getInstance();
+const cordovaFileUtil = new CordovaFileUtil();
 ```
 
 

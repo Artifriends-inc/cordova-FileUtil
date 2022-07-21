@@ -1,10 +1,11 @@
 'use strict';
 
 export class CordovaFileUtil {
-    static instance = null;
-    static getInstance() {
-        if (this.instance === null) this.instance = new this();
-        return this.instance;
+    static _instance = null;
+    constructor() {
+        if (CordovaFileUtil._instance) return CordovaFileUtil._instance;
+
+        CordovaFileUtil._instance = this;
     }
 
     async getDirEntry(path, folderName, create = true) {
